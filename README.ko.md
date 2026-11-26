@@ -12,6 +12,10 @@
 
 </div>
 
+<p align="center"><img src="assets/decision-flow-animated.svg" alt="Animated concept demo: understand, adapt, act" width="960" /></p>
+
+<p align="center"><sub>Animated concept illustration · Not a recording of a working product</sub></p>
+
 ---
 
 ## ✨ 같은 정보, 더 빠른 이해
