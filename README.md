@@ -1,29 +1,91 @@
+<div align="center">
+
 # VISUAL INTELLIGENCE V8.0
+
+### Make AI answers easier to understand, explore, and act on.
+
+**Adaptive visual reasoning · Mobile-first · Evidence-aware**
+
+[**Get started**](#-get-started-in-3-minutes) · [**Explore the skill**](skills/visual-intelligence/SKILL.md) · [**Run acceptance checks**](tests/TESTS.md)
 
 **English** · [한국어](README.ko.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-Adaptive, mobile-first visualization guidance for AI assistants. Use concise answers for simple tasks and meaningful diagrams, interactive simulations, and decision tools for complex tasks.
+</div>
 
-## Quick start (3 minutes)
-1. Choose your environment: [ChatGPT](platforms/chatgpt/SETUP.md) · [Codex](platforms/codex/SETUP.md) · [Claude / Claude Code](platforms/claude/SETUP.md) · [Gemini / Gemini CLI](platforms/gemini/SETUP.md).
-2. Follow the platform guide to add the instructions or skill.
-3. Run the [acceptance tests](tests/TESTS.md) and record actual results.
+---
 
-## Contents
-- [Visual Intelligence Skill](skills/visual-intelligence/SKILL.md)
-- [Pre-design review](hooks/pre-design.md)
-- [Post-design review](hooks/post-design.md)
-- [Feedback review](hooks/feedback.md)
-- [ChatGPT global instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt)
-- [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
+## ✨ From text overload to decision-ready answers
 
-## 200-point quality framework
-Baseline quality (100): accuracy, comprehension, task fit, interaction, design, mobile usability.
-Innovation (100): surprise, originality, immersion, and new actions enabled.
-Scores are a rubric, not validated performance claims.
+| BEFORE — one-size-fits-all | AFTER — task-adaptive |
+| :--- | :--- |
+| Long paragraphs for every question | Short answers for simple questions |
+| Decorative charts without a purpose | Comparisons, flows, and diagrams when useful |
+| Static explanation only | Interactive exploration when the platform supports it |
+| Unclear sources or fabricated confidence | Facts, assumptions, and simulations clearly separated |
 
-## Important compatibility notes
-The Markdown files in hooks/ are **instructional checklists, not executable event hooks**. Platform-specific executable hooks require supported local runtimes and verified settings. Publishing this repository **does not automatically install** anything in ChatGPT, Claude, Gemini or local developer tools. Never claim that real browser/mobile tests passed unless executed.
+> **Design principle:** The best visualization is the one that improves understanding or decisions—not the one with the most decoration.
 
-## Privacy
-Do not commit API keys, personal data, or private user preferences.
+## 🧭 How it works
+
+```mermaid
+flowchart LR
+    A["User request"] --> B{"What helps most?"}
+    B -->|"Simple fact"| C["Concise answer"]
+    B -->|"Compare / decide"| D["Table or decision aid"]
+    B -->|"Process / system"| E["Flow or structure"]
+    B -->|"Explore scenarios"| F["Interactive simulation*"]
+    C --> G["Accuracy + usability review"]
+    D --> G
+    E --> G
+    F --> G
+    G --> H["Clear next action"]
+```
+
+*Interactivity depends on the capabilities of the host platform; this repository provides guidance, not a universal rendering engine.*
+
+## 🚀 Get started in 3 minutes
+
+**1. Choose your environment**
+
+| Platform | Setup guide | What you get |
+| :--- | :--- | :--- |
+| ChatGPT | [Open guide](platforms/chatgpt/SETUP.md) | Instruction-based adaptation |
+| Codex | [Open guide](platforms/codex/SETUP.md) | Skill guidance for coding workflows |
+| Claude / Claude Code | [Open guide](platforms/claude/SETUP.md) | Platform-specific setup guidance |
+| Gemini / Gemini CLI | [Open guide](platforms/gemini/SETUP.md) | Platform-specific setup guidance |
+
+**2.** Follow the guide for your environment. **3.** Try the [manual acceptance scenarios](tests/TESTS.md) and record actual results.
+
+## 🧩 What's inside?
+
+```text
+skills/visual-intelligence/SKILL.md   → Core decision and visual-design rules
+hooks/pre-design.md                   → Before-design review checklist
+hooks/post-design.md                  → After-design review checklist
+hooks/feedback.md                     → Feedback interpretation checklist
+platforms/                            → ChatGPT, Codex, Claude, Gemini guides
+tests/TESTS.md                        → Manual acceptance scenarios
+```
+
+## 📐 Quality framework: 100 + 100
+
+| Baseline quality / 100 | Innovation experience / 100 |
+| :--- | :--- |
+| Accuracy, comprehension, task fit, interaction, design, mobile usability | Originality, immersion, useful new interactions, meaningful exploration |
+
+These are **evaluation criteria**, not benchmark scores or proof of tested performance.
+
+## 🔎 Status and limitations
+
+- **Published:** skill instructions, review checklists, platform guides, and manual tests.
+- **Not implemented here:** automatic installation across AI products or executable runtime hooks.
+- **Not verified:** real-device mobile rendering, end-to-end platform integrations, or automatic tests.
+- **Security:** never commit API keys, personal data, or private preferences.
+
+## 📚 Documentation
+
+[Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [ChatGPT instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
+
+---
+
+<div align="center"><sub>VISUAL INTELLIGENCE V8.0 — Clarity first. Interaction when it matters.</sub></div>
