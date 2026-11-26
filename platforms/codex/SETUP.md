@@ -1,0 +1,2 @@
+# Codex setup
+Copy skills/visual-intelligence/ into your supported Codex skills directory, following the current Codex Skills documentation. Reference the skill explicitly in the task if discovery is uncertain. For project-wide guidance, include the quality protocol in AGENTS.md. Run real tests using your project's own test commands or CI. The Markdown hooks/ files are instructional checklists, not executable Codex hooks. Verify current supported locations and permissions before installing globally.
