@@ -12,7 +12,7 @@
 
 </div>
 
-<p align="center"><img src="assets/visual-intelligence-demo.gif" alt="Animated concept demo: understand, adapt, act" width="960" /></p>
+<p align="center"><img src="assets/visual-intelligence-demo.gif" alt="Animated concept demo: understand, adapt, act" width="720" /></p>
 
 <p align="center"><sub>움직이는 GIF 개념 데모 · 실제 제품 실행 화면을 녹화한 영상이 아닙니다</sub></p>
 
@@ -32,7 +32,7 @@
 ## 🧭 작동 흐름
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["사용자 질문"] --> B{"어떤 표현이 유용한가?"}
     B -->|"간단한 정보"| C["간결한 답변"]
     B -->|"비교·선택"| D["비교표·판단 도구"]
@@ -48,6 +48,8 @@ flowchart LR
 *인터랙션은 사용하는 AI 플랫폼의 기능에 따라 달라집니다. 이 저장소 자체가 모든 환경에서 동작하는 렌더링 엔진은 아닙니다.*
 
 ## 🚀 3분 시작하기
+
+> **가장 빠른 적용:** 플랫폼 선택 → 지침 적용 → 실제 질문 1개로 확인.
 
 **1. 사용하는 플랫폼을 선택하세요.**
 
