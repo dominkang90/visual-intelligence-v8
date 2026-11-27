@@ -6,7 +6,7 @@
 
 **Adaptive visual reasoning · Mobile-first · Evidence-aware**
 
-[**Get started**](#-get-started-in-3-minutes) · [**Explore the skill**](skills/visual-intelligence/SKILL.md) · [**Run acceptance checks**](tests/TESTS.md)
+[**Get started**](#-01--quick-start) · [**Explore the skill**](skills/visual-intelligence/SKILL.md) · [**Run acceptance checks**](tests/TESTS.md)
 
 **English** · [한국어](README.ko.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -18,7 +18,35 @@
 
 ---
 
-## ✨ From text overload to decision-ready answers
+## 🚀 01 · Quick start
+
+> [!TIP]
+> Choose one environment. You do not need to install every platform.
+
+### STEP 1 — Choose your platform
+
+| Environment | Setup |
+| :--- | :--- |
+| ChatGPT | [Custom instructions](platforms/chatgpt/SETUP.md) |
+| Codex | [Skill setup](platforms/codex/SETUP.md) |
+| Claude / Claude Code | [Setup guide](platforms/claude/SETUP.md) |
+| Gemini / Gemini CLI | [Setup guide](platforms/gemini/SETUP.md) |
+
+### STEP 2 — Apply instructions
+
+Follow the selected guide. Back up and merge existing instructions. Hook documents are manual review guidance, not executable scripts.
+
+### STEP 3 — Test your first answer
+
+```text
+Explain how MCP and AI agents work together
+using a beginner-friendly architecture diagram.
+```
+
+[Open acceptance scenarios →](tests/TESTS.md)
+
+
+## ✨ 02 · From text overload to decision-ready answers
 
 | BEFORE — one-size-fits-all | AFTER — task-adaptive |
 | :--- | :--- |
@@ -29,7 +57,7 @@
 
 > **Design principle:** The best visualization is the one that improves understanding or decisions—not the one with the most decoration.
 
-## 🧭 How it works
+## 🧭 03 · How it works
 
 ```mermaid
 flowchart TB
@@ -47,20 +75,6 @@ flowchart TB
 
 *Interactivity depends on the capabilities of the host platform; this repository provides guidance, not a universal rendering engine.*
 
-## 🚀 Get started in 3 minutes
-
-> **Fast path:** Choose your platform → apply the instructions → test one real question.
-
-**1. Choose your environment**
-
-| Platform | Setup guide | What you get |
-| :--- | :--- | :--- |
-| ChatGPT | [Open guide](platforms/chatgpt/SETUP.md) | Instruction-based adaptation |
-| Codex | [Open guide](platforms/codex/SETUP.md) | Skill guidance for coding workflows |
-| Claude / Claude Code | [Open guide](platforms/claude/SETUP.md) | Platform-specific setup guidance |
-| Gemini / Gemini CLI | [Open guide](platforms/gemini/SETUP.md) | Platform-specific setup guidance |
-
-**2.** Follow the guide for your environment. **3.** Try the [manual acceptance scenarios](tests/TESTS.md) and record actual results.
 
 ## 🧩 What's inside?
 
