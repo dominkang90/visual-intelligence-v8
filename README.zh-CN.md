@@ -1,3 +1,13 @@
+# HAEON Response OS V9 — release candidate
+
+**AI-led minimal-touch setup:** give your AI this request:
+
+> Read AI-SETUP.md on the v9-ai-setup branch of https://github.com/dominkang90/visual-intelligence-v8 and install and verify the skill for my environment with minimal manual steps.
+
+[AI setup protocol](AI-SETUP.md) reuses the existing V8.1 skill. Automatic installation depends on actual host permissions; ChatGPT, Claude chat and Gemini may require a manual settings action. End-to-end platform tests remain pending. Existing V8.1 documentation and V8.0 visual examples follow.
+
+---
+
 <div align="center">
 
 [한국어](README.ko.md) · [English](README.md) · [日本語](README.ja.md) · **简体中文**
