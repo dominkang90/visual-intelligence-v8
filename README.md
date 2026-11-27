@@ -2,42 +2,71 @@
 
 [한국어](README.ko.md) · **English** · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-<a href="https://dominkang90.github.io/visual-intelligence-v8/en/"><img src="assets/readme/en/00.png" alt="VISUAL INTELLIGENCE V8.0 cover: make AI answers easier to understand, explore, and act on" width="100%" /></a>
+# VISUAL INTELLIGENCE V8.1
+**Fast conclusions. Rich visual understanding. Less unnecessary complexity.**
 
-[**▶ Open as a swipeable magazine**](https://dominkang90.github.io/visual-intelligence-v8/en/) · [**Get started**](#quick-start) · [**Explore the skill**](skills/visual-intelligence/SKILL.md) · [**Run acceptance checks**](tests/TESTS.md)
+<a href="https://dominkang90.github.io/visual-intelligence-v8/en/"><img src="assets/readme/en/00.png" alt="V8.0 magazine cover — original visual example" width="100%" /></a>
+
+[**▶ Explore the existing V8.0 magazine demo**](https://dominkang90.github.io/visual-intelligence-v8/en/) · [**What's new in V8.1**](#whats-new-in-v81) · [**Get started**](#quick-start) · [**Core skill**](skills/visual-intelligence/SKILL.md)
 
 </div>
 
-<br />
+> **Version scope:** V8.1 updates the instructional skill and review protocols. Existing README screenshots and the linked magazine are V8.0 examples; the demo UI has **not** been rebuilt or verified for V8.1.
 
-<img src="assets/readme/en/01.png" alt="01 Verdict: understanding and decisions over decoration" width="100%" />
+<a id="whats-new-in-v81"></a>
+## What's new in V8.1 — informed by the November 27 conversation
 
-<img src="assets/readme/en/02.png" alt="02 Before and after: from text overload to decision-ready answers" width="100%" />
+**The design choice:** preserve the earlier approach's speed, clarity, and self-contained explanations while selectively adding the newer approach's contextual visualizations, deep analysis, and interactions. **40:60 was a conversational metaphor, not a measured or fixed allocation.**
 
-<img src="assets/readme/en/03.png" alt="03 How it works: from one question to a clear next action" width="100%" />
+| Keep from the earlier approach | Improve with V8.1 | Avoid |
+| --- | --- | --- |
+| Immediate answer and key reasons | Adaptive editorial/magazine layout | Long preambles before the conclusion |
+| Plain-text readability | Relationship maps and failure-point explanations | Visuals that are required to understand the answer |
+| Minimal friction | Side-by-side benefits, costs, and before/after workflows | Decorative controls and repetitive follow-ups |
+| Direct, actionable advice | Evidence, counterarguments, alternatives, next action | Invented benchmark results or unverified compatibility |
 
-<details>
-<summary>View the flow as text (Mermaid)</summary>
+### Adaptive answer architecture
 
 ```mermaid
-flowchart TB
-    A["User request"] --> B{"What helps most?"}
-    B -->|"Simple fact"| C["Concise answer"]
-    B -->|"Compare / decide"| D["Table or decision aid"]
-    B -->|"Process / system"| E["Flow or structure"]
-    B -->|"Explore scenarios"| F["Interactive simulation*"]
-    C --> G["Accuracy + usability review"]
-    D --> G
-    E --> G
-    F --> G
-    G --> H["Clear next action"]
+flowchart TD
+    A["User question"] --> B["Direct answer / key takeaway"]
+    B --> C{"What makes it easier to understand?"}
+    C -->|Simple fact| D["Concise explanation; optional rich visual"]
+    C -->|Comparison or choice| E["Side-by-side trade-offs and recommendation"]
+    C -->|System, failure, or history| F["Relationship map / process / timeline"]
+    C -->|Complex decision| G["Decompose → verify → compare → act"]
+    D --> H["Accuracy + readability + delivery review"]
+    E --> H
+    F --> H
+    G --> H
+    H --> I{"Can the user actually access the visual?"}
+    I -->|Yes or verified| J["Actionable outcome"]
+    I -->|Unknown or no| K["Self-contained text fallback"]
+    K --> J
 ```
 
-</details>
+### Three patterns refined today
+
+1. **Compatibility diagnosis:** show where a skill connects to the model, IDE, operating system, runtime, or MCP; identify the exact failing link, cause, and remedy. Check current versions and native feature overlap rather than assuming compatibility.
+2. **Contextual trade-offs:** compare benefits and costs together for the *same user task*. A complex app build and a quick code fix can yield different recommendations.
+3. **Before/after workflow:** display which steps change and why. Any example time, score, or performance value must be labeled **illustrative**, not a measured benchmark.
+
+### Delivery and quality safeguards
+
+- **Direct answer first**, regardless of whether a rich visualization is used.
+- **Never assert the user saw a visual** without confirmation. If rendering is unavailable or uncertain, keep the explanation complete in text.
+- **Separate verified facts, inference, and simulations.** Source time-sensitive claims; do not invent metrics or tool checks.
+- **Selective improvement feedback:** fix important defects immediately, suggest a specific enhancement only when useful, and do not force a closing question.
+- **Mobile first:** readable, accessible, low-friction, responsive layouts; interaction only when it changes understanding or decisions.
+
+## Original V8.0 visual examples (unchanged)
+
+<img src="assets/readme/en/01.png" alt="V8.0 example: clarity and decisions" width="100%" />
+<img src="assets/readme/en/02.png" alt="V8.0 example: before and after" width="100%" />
+<img src="assets/readme/en/03.png" alt="V8.0 example: question to action" width="100%" />
 
 <a id="quick-start"></a>
-
-<img src="assets/readme/en/04.png" alt="04 Quick start in 3 steps" width="100%" />
+## Quick start
 
 | Environment | Setup |
 | :--- | :--- |
@@ -46,35 +75,26 @@ flowchart TB
 | Claude / Claude Code | [Setup guide](platforms/claude/SETUP.md) |
 | Gemini / Gemini CLI | [Setup guide](platforms/gemini/SETUP.md) |
 
-**First test prompt**
+**Suggested V8.1 evaluation prompts**
 
 ```text
-Explain how MCP and AI agents work together
-using a beginner-friendly architecture diagram.
+1. Explain who initiated the Imjin War in one clear conclusion,
+   then offer a readable timeline or relationship diagram.
+2. Compare a skill's usefulness for building a complex app
+   versus fixing one small bug. Separate verified compatibility
+   from hypothetical workflow examples.
+3. Explain how MCP and AI agents connect. If a visual cannot
+   be displayed, provide an equally understandable text fallback.
 ```
 
-<img src="assets/readme/en/05.png" alt="05 What's in the repository" width="100%" />
+## Repository and verification
 
-[`skills/visual-intelligence/SKILL.md`](skills/visual-intelligence/SKILL.md) Core skill · [`hooks/pre-design.md`](hooks/pre-design.md) Pre-design review · [`hooks/post-design.md`](hooks/post-design.md) Post-design review · [`hooks/feedback.md`](hooks/feedback.md) Feedback review · [`platforms/`](platforms/) Platform guides · [`tests/TESTS.md`](tests/TESTS.md) Acceptance scenarios
+[Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [Acceptance scenarios](tests/TESTS.md) · [Changelog](CHANGELOG.md)
 
-<img src="assets/readme/en/06.png" alt="06 Quality framework: 100 + 100" width="100%" />
+**Quality framework:** baseline 100 points (accuracy, comprehension, task fitness, interaction, design, mobile) plus innovation 100 points (surprise, originality, immersion, new capability). These are *evaluation rubrics*, not evidence of achieved scores. No untested item receives a perfect score.
 
-<img src="assets/readme/en/07.png" alt="07 Status and limitations" width="100%" />
-
-<img src="assets/readme/en/08.png" alt="08 Six acceptance scenarios to run after setup" width="100%" />
-
-<p align="right"><a href="tests/TESTS.md"><b>Open acceptance scenarios →</b></a></p>
+**Implementation status:** documentation and instructional protocols updated; no claim of deployed UI changes, automatic hook execution, verified screen rendering, or completed end-to-end tests. The existing V8.0 screenshots remain unchanged.
 
 ---
 
-<div align="center">
-
-**Documentation** · [Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [ChatGPT instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
-
-<sub>README images are captures of the magazine with the same content. Interactions (cards, copy, checklist) work in the magazine.</sub>
-
-<sub>VISUAL INTELLIGENCE V8.0 · Clarity first. Interaction when it matters.</sub>
-
-[한국어](README.ko.md) · **English** · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
-
-</div>
+<div align="center"><sub>VISUAL INTELLIGENCE V8.1 · Clarity first. Visual depth when it helps. Delivery must work.</sub></div>
