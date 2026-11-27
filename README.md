@@ -12,9 +12,9 @@
 
 </div>
 
-<p align="center"><img src="assets/decision-flow-animated.svg" alt="Animated concept demo: understand, adapt, act" width="960" /></p>
+<p align="center"><img src="assets/visual-intelligence-demo.gif" alt="Animated concept demo: understand, adapt, act" width="960" /></p>
 
-<p align="center"><sub>Animated concept illustration · Not a recording of a working product</sub></p>
+<p align="center"><sub>Animated GIF concept demo · Not a recording of a working product</sub></p>
 
 ---
 
