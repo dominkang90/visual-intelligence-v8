@@ -12,7 +12,7 @@
 
 </div>
 
-<p align="center"><img src="assets/visual-intelligence-demo.gif" alt="Animated concept demo: understand, adapt, act" width="960" /></p>
+<p align="center"><img src="assets/visual-intelligence-demo.gif" alt="Animated concept demo: understand, adapt, act" width="720" /></p>
 
 <p align="center"><sub>Animated GIF concept demo · Not a recording of a working product</sub></p>
 
@@ -32,7 +32,7 @@
 ## 🧭 How it works
 
 ```mermaid
-flowchart LR
+flowchart TB
     A["User request"] --> B{"What helps most?"}
     B -->|"Simple fact"| C["Concise answer"]
     B -->|"Compare / decide"| D["Table or decision aid"]
@@ -48,6 +48,8 @@ flowchart LR
 *Interactivity depends on the capabilities of the host platform; this repository provides guidance, not a universal rendering engine.*
 
 ## 🚀 Get started in 3 minutes
+
+> **Fast path:** Choose your platform → apply the instructions → test one real question.
 
 **1. Choose your environment**
 
