@@ -6,7 +6,7 @@
 
 **상황 적응형 시각화 · 모바일 우선 · 근거 중심**
 
-[**3분 시작하기**](#-3분-시작하기) · [**핵심 스킬 보기**](skills/visual-intelligence/SKILL.md) · [**검수 항목 보기**](tests/TESTS.md)
+[**3분 시작하기**](#-01--시작하기) · [**핵심 스킬 보기**](skills/visual-intelligence/SKILL.md) · [**검수 항목 보기**](tests/TESTS.md)
 
 [English](README.md) · **한국어** · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
@@ -18,7 +18,35 @@
 
 ---
 
-## ✨ 같은 정보, 더 빠른 이해
+## 🚀 01 · 시작하기
+
+> [!TIP]
+> 모든 플랫폼을 설치할 필요는 없습니다. 사용하는 환경 하나를 선택하세요.
+
+### STEP 1 — 플랫폼 선택
+
+| 환경 | 적용 방법 |
+| :--- | :--- |
+| ChatGPT | [맞춤 지침 설정](platforms/chatgpt/SETUP.md) |
+| Codex | [스킬 설정](platforms/codex/SETUP.md) |
+| Claude / Claude Code | [환경별 설정](platforms/claude/SETUP.md) |
+| Gemini / Gemini CLI | [환경별 설정](platforms/gemini/SETUP.md) |
+
+### STEP 2 — 지침 적용
+
+선택한 가이드에 따라 설정합니다. 기존 지침은 백업하고 필요한 내용을 병합하세요. Hook 문서는 수동 검수 지침이며 자동 실행 스크립트가 아닙니다.
+
+### STEP 3 — 첫 답변 검증
+
+```text
+MCP와 AI 에이전트의 관계를
+초보자도 이해할 수 있는 구조도로 설명해줘.
+```
+
+[검수 시나리오 열기 →](tests/TESTS.md)
+
+
+## ✨ 02 · 같은 정보, 더 빠른 이해
 
 | BEFORE — 기존 답변 | AFTER — 목적별 시각화 |
 | :--- | :--- |
@@ -29,7 +57,7 @@
 
 > **핵심 원칙:** 예쁜 화면보다 이해 속도와 의사결정 품질을 우선합니다.
 
-## 🧭 작동 흐름
+## 🧭 03 · 작동 흐름
 
 ```mermaid
 flowchart TB
@@ -47,20 +75,6 @@ flowchart TB
 
 *인터랙션은 사용하는 AI 플랫폼의 기능에 따라 달라집니다. 이 저장소 자체가 모든 환경에서 동작하는 렌더링 엔진은 아닙니다.*
 
-## 🚀 3분 시작하기
-
-> **가장 빠른 적용:** 플랫폼 선택 → 지침 적용 → 실제 질문 1개로 확인.
-
-**1. 사용하는 플랫폼을 선택하세요.**
-
-| 플랫폼 | 설치·적용 안내 | 적용 방식 |
-| :--- | :--- | :--- |
-| ChatGPT | [안내 열기](platforms/chatgpt/SETUP.md) | 맞춤 지침 기반 |
-| Codex | [안내 열기](platforms/codex/SETUP.md) | 코딩 작업용 스킬 지침 |
-| Claude / Claude Code | [안내 열기](platforms/claude/SETUP.md) | 환경별 설정 |
-| Gemini / Gemini CLI | [안내 열기](platforms/gemini/SETUP.md) | 환경별 설정 |
-
-**2.** 안내에 따라 지침 또는 스킬을 적용합니다. **3.** [검수 시나리오](tests/TESTS.md)를 직접 실행하고 결과를 기록합니다.
 
 ## 🧩 프로젝트 구성
 
