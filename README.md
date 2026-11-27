@@ -1,69 +1,23 @@
 <div align="center">
 
-# VISUAL INTELLIGENCE V8.0
+[한국어](README.ko.md) · **English** · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
 
-### Make AI answers easier to understand, explore, and act on.
+<a href="https://dominkang90.github.io/visual-intelligence-v8/en/"><img src="assets/readme/en/00.png" alt="VISUAL INTELLIGENCE V8.0 cover: make AI answers easier to understand, explore, and act on" width="100%" /></a>
 
-**Adaptive visual reasoning · Mobile-first · Evidence-aware**
-
-[**Get started**](#-01--quick-start) · [**Explore the skill**](skills/visual-intelligence/SKILL.md) · [**Run acceptance checks**](tests/TESTS.md)
-
-**English** · [한국어](README.ko.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
+[**▶ Open as a swipeable magazine**](https://dominkang90.github.io/visual-intelligence-v8/en/) · [**Get started**](#quick-start) · [**Explore the skill**](skills/visual-intelligence/SKILL.md) · [**Run acceptance checks**](tests/TESTS.md)
 
 </div>
 
-<p align="center"><img src="assets/visual-intelligence-demo.gif" alt="Animated concept demo: understand, adapt, act" width="720" /></p>
+<br />
 
-<p align="center"><sub>Animated GIF concept demo · Not a recording of a working product</sub></p>
+<img src="assets/readme/en/01.png" alt="01 Verdict: understanding and decisions over decoration" width="100%" />
 
-### 📖 View as a swipeable magazine
+<img src="assets/readme/en/02.png" alt="02 Before and after: from text overload to decision-ready answers" width="100%" />
 
-<p align="center"><a href="https://dominkang90.github.io/visual-intelligence-v8/"><img src="assets/magazine-cover.png" alt="VISUAL INTELLIGENCE README magazine cover" width="720" /></a></p>
+<img src="assets/readme/en/03.png" alt="03 How it works: from one question to a clear next action" width="100%" />
 
-<p align="center"><b><a href="https://dominkang90.github.io/visual-intelligence-v8/">▶ Open this README as a 10-slide magazine (Korean)</a></b><br /><sub>Swipe through · Mobile-friendly · Clickable diagram · Saved test checklist</sub></p>
-
----
-
-## 🚀 01 · Quick start
-
-> [!TIP]
-> Choose one environment. You do not need to install every platform.
-
-### STEP 1 — Choose your platform
-
-| Environment | Setup |
-| :--- | :--- |
-| ChatGPT | [Custom instructions](platforms/chatgpt/SETUP.md) |
-| Codex | [Skill setup](platforms/codex/SETUP.md) |
-| Claude / Claude Code | [Setup guide](platforms/claude/SETUP.md) |
-| Gemini / Gemini CLI | [Setup guide](platforms/gemini/SETUP.md) |
-
-### STEP 2 — Apply instructions
-
-Follow the selected guide. Back up and merge existing instructions. Hook documents are manual review guidance, not executable scripts.
-
-### STEP 3 — Test your first answer
-
-```text
-Explain how MCP and AI agents work together
-using a beginner-friendly architecture diagram.
-```
-
-[Open acceptance scenarios →](tests/TESTS.md)
-
-
-## ✨ 02 · From text overload to decision-ready answers
-
-| BEFORE — one-size-fits-all | AFTER — task-adaptive |
-| :--- | :--- |
-| Long paragraphs for every question | Short answers for simple questions |
-| Decorative charts without a purpose | Comparisons, flows, and diagrams when useful |
-| Static explanation only | Interactive exploration when the platform supports it |
-| Unclear sources or fabricated confidence | Facts, assumptions, and simulations clearly separated |
-
-> **Design principle:** The best visualization is the one that improves understanding or decisions—not the one with the most decoration.
-
-## 🧭 03 · How it works
+<details>
+<summary>View the flow as text (Mermaid)</summary>
 
 ```mermaid
 flowchart TB
@@ -79,39 +33,48 @@ flowchart TB
     G --> H["Clear next action"]
 ```
 
-*Interactivity depends on the capabilities of the host platform; this repository provides guidance, not a universal rendering engine.*
+</details>
 
+<a id="quick-start"></a>
 
-## 🧩 What's inside?
+<img src="assets/readme/en/04.png" alt="04 Quick start in 3 steps" width="100%" />
+
+| Environment | Setup |
+| :--- | :--- |
+| ChatGPT | [Custom instructions](platforms/chatgpt/SETUP.md) |
+| Codex | [Skill setup](platforms/codex/SETUP.md) |
+| Claude / Claude Code | [Setup guide](platforms/claude/SETUP.md) |
+| Gemini / Gemini CLI | [Setup guide](platforms/gemini/SETUP.md) |
+
+**First test prompt**
 
 ```text
-skills/visual-intelligence/SKILL.md   → Core decision and visual-design rules
-hooks/pre-design.md                   → Before-design review checklist
-hooks/post-design.md                  → After-design review checklist
-hooks/feedback.md                     → Feedback interpretation checklist
-platforms/                            → ChatGPT, Codex, Claude, Gemini guides
-tests/TESTS.md                        → Manual acceptance scenarios
+Explain how MCP and AI agents work together
+using a beginner-friendly architecture diagram.
 ```
 
-## 📐 Quality framework: 100 + 100
+<img src="assets/readme/en/05.png" alt="05 What's in the repository" width="100%" />
 
-| Baseline quality / 100 | Innovation experience / 100 |
-| :--- | :--- |
-| Accuracy, comprehension, task fit, interaction, design, mobile usability | Originality, immersion, useful new interactions, meaningful exploration |
+[`skills/visual-intelligence/SKILL.md`](skills/visual-intelligence/SKILL.md) Core skill · [`hooks/pre-design.md`](hooks/pre-design.md) Pre-design review · [`hooks/post-design.md`](hooks/post-design.md) Post-design review · [`hooks/feedback.md`](hooks/feedback.md) Feedback review · [`platforms/`](platforms/) Platform guides · [`tests/TESTS.md`](tests/TESTS.md) Acceptance scenarios
 
-These are **evaluation criteria**, not benchmark scores or proof of tested performance.
+<img src="assets/readme/en/06.png" alt="06 Quality framework: 100 + 100" width="100%" />
 
-## 🔎 Status and limitations
+<img src="assets/readme/en/07.png" alt="07 Status and limitations" width="100%" />
 
-- **Published:** skill instructions, review checklists, platform guides, and manual tests.
-- **Not implemented here:** automatic installation across AI products or executable runtime hooks.
-- **Not verified:** real-device mobile rendering, end-to-end platform integrations, or automatic tests.
-- **Security:** never commit API keys, personal data, or private preferences.
+<img src="assets/readme/en/08.png" alt="08 Six acceptance scenarios to run after setup" width="100%" />
 
-## 📚 Documentation
-
-[Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [ChatGPT instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [Magazine view](https://dominkang90.github.io/visual-intelligence-v8/) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
+<p align="right"><a href="tests/TESTS.md"><b>Open acceptance scenarios →</b></a></p>
 
 ---
 
-<div align="center"><sub>VISUAL INTELLIGENCE V8.0 — Clarity first. Interaction when it matters.</sub></div>
+<div align="center">
+
+**Documentation** · [Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [ChatGPT instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
+
+<sub>README images are captures of the magazine with the same content. Interactions (cards, copy, checklist) work in the magazine.</sub>
+
+<sub>VISUAL INTELLIGENCE V8.0 · Clarity first. Interaction when it matters.</sub>
+
+[한국어](README.ko.md) · **English** · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
+
+</div>
