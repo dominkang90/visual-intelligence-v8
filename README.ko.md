@@ -16,6 +16,18 @@
 
 <p align="center"><sub>움직이는 GIF 개념 데모 · 실제 제품 실행 화면을 녹화한 영상이 아닙니다</sub></p>
 
+### 📖 넘겨 보는 매거진으로 보기
+
+<p align="center"><a href="https://dominkang90.github.io/visual-intelligence-v8/"><img src="assets/magazine-cover.png" alt="VISUAL INTELLIGENCE 리드미 매거진 표지" width="720" /></a></p>
+
+<p align="center"><b><a href="https://dominkang90.github.io/visual-intelligence-v8/">▶ 이 README를 10장짜리 매거진으로 열기</a></b><br /><sub>좌우로 넘겨 보기 · 휴대폰 지원 · 구조도 카드 누르기 · 검수 체크리스트 저장</sub></p>
+
+<details>
+<summary><b>10장 한눈에 보기</b></summary>
+<br />
+<p align="center"><img src="assets/magazine-slides.png" alt="매거진 10장 모아보기" width="900" /></p>
+</details>
+
 ---
 
 ## 🚀 01 · 시작하기
@@ -104,7 +116,7 @@ tests/TESTS.md                      → 수동 검증 시나리오
 
 ## 📚 바로가기
 
-[핵심 스킬](skills/visual-intelligence/SKILL.md) · [제작 전 검수](hooks/pre-design.md) · [제작 후 검수](hooks/post-design.md) · [피드백 분석](hooks/feedback.md) · [ChatGPT 지침](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [변경 이력](CHANGELOG.md) · [MIT 라이선스](LICENSE)
+[핵심 스킬](skills/visual-intelligence/SKILL.md) · [제작 전 검수](hooks/pre-design.md) · [제작 후 검수](hooks/post-design.md) · [피드백 분석](hooks/feedback.md) · [ChatGPT 지침](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [매거진으로 보기](https://dominkang90.github.io/visual-intelligence-v8/) · [변경 이력](CHANGELOG.md) · [MIT 라이선스](LICENSE)
 
 ---
 

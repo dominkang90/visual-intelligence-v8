@@ -16,6 +16,12 @@
 
 <p align="center"><sub>Animated GIF concept demo · Not a recording of a working product</sub></p>
 
+### 📖 View as a swipeable magazine
+
+<p align="center"><a href="https://dominkang90.github.io/visual-intelligence-v8/"><img src="assets/magazine-cover.png" alt="VISUAL INTELLIGENCE README magazine cover" width="720" /></a></p>
+
+<p align="center"><b><a href="https://dominkang90.github.io/visual-intelligence-v8/">▶ Open this README as a 10-slide magazine (Korean)</a></b><br /><sub>Swipe through · Mobile-friendly · Clickable diagram · Saved test checklist</sub></p>
+
 ---
 
 ## 🚀 01 · Quick start
@@ -104,7 +110,7 @@ These are **evaluation criteria**, not benchmark scores or proof of tested perfo
 
 ## 📚 Documentation
 
-[Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [ChatGPT instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
+[Core skill](skills/visual-intelligence/SKILL.md) · [Pre-design](hooks/pre-design.md) · [Post-design](hooks/post-design.md) · [Feedback](hooks/feedback.md) · [ChatGPT instructions](platforms/chatgpt/GLOBAL-INSTRUCTIONS.txt) · [Magazine view](https://dominkang90.github.io/visual-intelligence-v8/) · [Changelog](CHANGELOG.md) · [MIT license](LICENSE)
 
 ---
 
