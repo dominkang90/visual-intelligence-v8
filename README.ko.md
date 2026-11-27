@@ -1,3 +1,13 @@
+# HAEON Response OS V9 — 출시 후보
+
+**AI 주도형 최소 개입 설치:** GitHub를 연결하거나 저장소를 읽을 수 있는 AI에 아래 문장을 전달하세요.
+
+> https://github.com/dominkang90/visual-intelligence-v8 의 v9-ai-setup 브랜치에서 AI-SETUP.md를 읽고 내 환경에 맞게 설치·검증해줘. 직접 해야 하는 작업은 최소화해줘.
+
+[AI 설치 프로토콜](AI-SETUP.md) · 기존 V8.1 핵심 스킬 재사용. 파일 쓰기 권한이 있는 환경에서 자동 적용을 시도하며, ChatGPT·Claude·Gemini의 설정 변경 권한이 없으면 필요한 최소 조작을 안내합니다. 실제 플랫폼별 설치 및 지속성 테스트는 아직 완료되지 않았습니다. 아래는 기존 V8.1 문서와 V8.0 시각화 예시입니다.
+
+---
+
 <div align="center">
 
 **한국어** · [English](README.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md)
